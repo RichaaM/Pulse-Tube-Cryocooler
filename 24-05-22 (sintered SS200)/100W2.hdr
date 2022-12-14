@@ -1,0 +1,38 @@
+//YOKOGAWA ASCII FILE FORMAT
+
+$PublicInfo
+FormatVersion       1.11            
+Model               DL750           
+Endian              Big             
+DataFormat          Trace           
+GroupNumber         1               
+TraceTotalNumber    2               
+DataOffset          119012          
+
+$Group1             
+TraceNumber         2               
+BlockNumber         1               
+TraceName           CH2             CH3             
+BlockSize           1001            1001            
+VResolution         2.0833333E-03   4.1666667E-04   
+VOffset             0.0000000E+00   0.0000000E+00   
+VDataType           IS2             IS2             
+VUnit               V               V               
+VPlusOverData       ?               ?               
+VMinusOverData      ?               ?               
+VIllegalData        -32768          -32768          
+VMaxData            32767           32767           
+VMinData            -32767          -32767          
+HResolution         1.0000000E-04   1.0000000E-04   
+HOffset             -5.0000000E-02  -5.0000000E-02  
+HUnit               s               s               
+Date                2022/05/24      2022/05/24      
+Time                15:08:58.19     15:08:58.19     
+
+$PrivateInfo
+DisplayPointNo.     1               1               
+ModelVersion        6.02            
+PTraceName          CH2             CH3             
+PUpperScaleData     25.00V          25.000V         
+PLowerScaleData     -25.00V         -25.000V        
+POffsetName         0.00000V        0.00000V        
